@@ -9,7 +9,6 @@ int main ()
     int quantidade;
     float total;
 
-
     printf ("Quantidade de maçãs: ");
     scanf  ("%d", &quantidade);
 
@@ -23,5 +22,4 @@ int main ()
         total=quantidade*0.30;
         printf ("O total da compra é: R$ %.2f", total);
     }
-
 }
