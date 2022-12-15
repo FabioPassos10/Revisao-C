@@ -1,9 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-// 1. Escreva	 um	 programa	 para	 ler	 2	 valores	 (considere	 que	 	 não	 serão
-//informados	valores	iguais)	e	escrever	o	maior	deles.
-
 int main(){
     int valor1, valor2;
 
@@ -13,7 +10,7 @@ int main(){
     scanf("%d", &valor2);
     if(valor2 == valor1){
 
-        do{ // Loop que impede que a variavel valor2 seja igual a variavel valor1
+        do{ 
          system("cls");
          printf("\nPor favor, digite um valor diferente ...\n\n");
          printf("Digite o primeiro valor: ");
