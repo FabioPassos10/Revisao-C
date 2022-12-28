@@ -8,11 +8,11 @@ int main()
 {
 setlocale(LC_ALL, "portuguese");
 
-   for(int i=0; i< 300; i++){
+  /* for(int i=0; i< 300; i++){
    printf("%d - [  %c  ]     \n", i,i);
 
-   }
-   printf("%c", 177);
+   }*/
+ printf("\n%c Ola Luma %c", 270,270);
 
 
     return 0;

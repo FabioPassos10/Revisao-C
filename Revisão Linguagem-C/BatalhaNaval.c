@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include <windows.h>
 #include <locale.h>
+
 void logo()
 {
     system("color 3");
@@ -28,7 +29,7 @@ void Dev()
     Sleep(1000);
     printf("\t\t\t\t|      Luma Fernanda de Sousa    |\n");
     Sleep(1000);
-    printf("\t\t\t\t|      Fábio Eloy Passos         |\n");
+    printf("\t\t\t\t|      Fï¿½bio Eloy Passos         |\n");
     Sleep(1000);
     printf("\t\t\t\t+--------------------------------+\n");
 
@@ -55,20 +56,20 @@ int main()
 
     }
     printf("\n\n\n    +-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-+\n");
-    printf("    |                Preenchendo as posições              |\n");
+    printf("    |                Preenchendo as posiï¿½ï¿½es              |\n");
     printf("    +-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-+\n\n");
     for(int i=0; i<5; i++)//Preenchendo os Navios no tabuleiro
     {
-        printf("\n\n  Digite a %d posição do navio \n\n ", i+1);
+        printf("\n\n  Digite a %d posiï¿½ï¿½o do navio \n\n ", i+1);
         printf(" Linha: ");
         scanf("%d", &lin);
         while(lin<0 || lin>7){
         if(lin<0 || lin>7){
 
           printf("\n +---------------------------------------------+\n");
-          printf(" |              valor inválido                 |\n");
+          printf(" |              valor invï¿½lido                 |\n");
           printf(" +---------------------------------------------+\n\n\n");
-          printf("\n\n  Digite a %d posição do navio \n\n ", i+1);
+          printf("\n\n  Digite a %d posiï¿½ï¿½o do navio \n\n ", i+1);
           printf(" Linha: ");
           scanf("%d", &lin);
 
@@ -80,9 +81,9 @@ int main()
         if(col<0 || col>7){
 
           printf("\n +---------------------------------------------+\n");
-          printf(" |              valor inválido                 |\n");
+          printf(" |              valor invï¿½lido                 |\n");
           printf(" +---------------------------------------------+\n\n\n");
-          printf("\n\n  Digite a %d posição do navio \n\n ", i+1);
+          printf("\n\n  Digite a %d posiï¿½ï¿½o do navio \n\n ", i+1);
           printf(" Coluna: ");
           scanf("%d", &lin);
 
@@ -120,7 +121,7 @@ int main()
         printf("\t\t\t      Tentativas: %d   Navios: %d \n\n\n", qtdT, 5-acerto);
 
 
-        printf("\n\n    Digite a %dº tentativa\n\n ",b);
+        printf("\n\n    Digite a %dï¿½ tentativa\n\n ",b);
 
 
         printf("   Linha: ");
@@ -131,9 +132,9 @@ int main()
           if(L<0 || L>7){
 
           printf("\n +---------------------------------------------+\n");
-          printf(" |              valor inválido                 |\n");
+          printf(" |              valor invï¿½lido                 |\n");
           printf(" +---------------------------------------------+\n\n\n");
-          printf("\n\n  Digite a %d posição do navio \n\n ", b+1);
+          printf("\n\n  Digite a %d posiï¿½ï¿½o do navio \n\n ", b+1);
           printf(" Linha: ");
           scanf("%d", &L);
         }
@@ -145,9 +146,9 @@ int main()
           if(C<0 || C>7){
 
           printf("\n +---------------------------------------------+\n");
-          printf(" |              valor inválido                 |\n");
+          printf(" |              valor invï¿½lido                 |\n");
           printf(" +---------------------------------------------+\n\n\n");
-          printf("\n\n  Digite a %d posição do navio \n\n ", b+1);
+          printf("\n\n  Digite a %d posiï¿½ï¿½o do navio \n\n ", b+1);
           printf(" Coluna: ");
           scanf("%d", &C);
         }
@@ -160,14 +161,14 @@ int main()
         {
             acerto+=1;
             printf("\n +-------------------------------+\n");
-            printf(" |       Você acertouuuuu!!!!!   |\n");
+            printf(" |       Vocï¿½ acertouuuuu!!!!!   |\n");
             printf(" +-------------------------------+\n");
             if(acerto==5)
             {
                  system("cls");
                  system("color 2");
                  printf("\n\n\n\n\n\n\n\t\t\t\t +---------------------------------------------+\n");
-                 printf("\t\t\t\t |       Você encontrou TODOS os navios!!!!!   |\n");
+                 printf("\t\t\t\t |       Vocï¿½ encontrou TODOS os navios!!!!!   |\n");
                  printf("\t\t\t\t +---------------------------------------------+\n");
                  Sleep(3000);
                  system("cls");
@@ -178,7 +179,7 @@ int main()
         else
         {
             printf("\n +-------------------------------+\n");
-            printf(" |       Você Errou!!!!!         |\n");
+            printf(" |       Vocï¿½ Errou!!!!!         |\n");
             printf(" +-------------------------------+\n");
         }
 
@@ -186,7 +187,7 @@ int main()
     while(qtdT!=0);
     system("cls");
     printf("\t\t+------------------------------------------------------------------+\n");
-    printf("\t\t|                        Dados e pontuação                         |\n");
+    printf("\t\t|                        Dados e pontuaï¿½ï¿½o                         |\n");
     printf("\t\t+------------------------------------------------------------------+\n");
     printf("\t\t                 Quantidade de navios encontrados: %d\n",acerto);
     printf("\t\t                 Quantidade de tentativas usadas: %d\n",10-qtdT);

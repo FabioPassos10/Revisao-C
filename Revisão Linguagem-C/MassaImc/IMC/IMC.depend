@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1672182138 source:c:\users\fabio\onedrive\documentos\github\revisao-c\revisão linguagem-c\massaimc\imc\main.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	<locale.h>
+	"imc.h"
+
+1672181340 c:\users\fabio\onedrive\documentos\github\revisao-c\revisão linguagem-c\massaimc\imc\imc.h
+
+1672182238 source:c:\users\fabio\onedrive\documentos\github\revisao-c\revisão linguagem-c\massaimc\imc\tabuada.c
+	"imc.h"
+

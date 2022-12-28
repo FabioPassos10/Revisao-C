@@ -48,14 +48,18 @@ void montaMenu(char nome[]){
 
 }
 
-
 int main()
 {
 
-    int nome[Tam];
+    int nome[Tam], tamanho;
+
     printf("Digite o seu nome: ");
     scanf("%49[^\n]s", nome);
+    //fgets(nome,49,stdin);
     montaMenu(nome);
+
+
+
 
     return 0;
 }
