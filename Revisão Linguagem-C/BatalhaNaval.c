@@ -23,6 +23,7 @@ void logo()
 
 void Dev()
 {
+    setlocale(LC_ALL, "")
     printf("\n\n\t\t\t\t+--------------------------------+\n");
     printf("\t\t\t\t|      Desenvolvidor por:        |\n");
     printf("\t\t\t\t+--------------------------------+\n");
